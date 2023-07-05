@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T13:28:02.988Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" version="21.5.2" etag="pnDQYAYnWs9TLyvwk4uj" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T13:41:56.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" etag="jiC8lIqtAjJiPw1XmViB" version="21.5.2" type="github">
   <diagram name="Side-1" id="nFtY0woTB8Kig3514jJe">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HKQcNyJrO0pDD196Bk3a-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HKQcNyJrO0pDD196Bk3a-6" target="HKQcNyJrO0pDD196Bk3a-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKQcNyJrO0pDD196Bk3a-6" value="Server A" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="184" y="280.5" width="61.6" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HKQcNyJrO0pDD196Bk3a-11" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="244" y="335" as="sourcePoint" />
+            <mxPoint x="414" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKQcNyJrO0pDD196Bk3a-12" value="OPC UA&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HKQcNyJrO0pDD196Bk3a-11">
+          <mxGeometry x="-0.1391" y="-3" relative="1" as="geometry">
+            <mxPoint x="11" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKQcNyJrO0pDD196Bk3a-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="HKQcNyJrO0pDD196Bk3a-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="534" y="335" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKQcNyJrO0pDD196Bk3a-16" value="Server B" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="414" y="280" width="61.6" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HKQcNyJrO0pDD196Bk3a-28" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="534" y="295" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HKQcNyJrO0pDD196Bk3a-35" value="OPC Router" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_transcoder;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="94" y="314.5" width="40" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="HKQcNyJrO0pDD196Bk3a-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HKQcNyJrO0pDD196Bk3a-38" target="HKQcNyJrO0pDD196Bk3a-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKQcNyJrO0pDD196Bk3a-42" value="OPC DA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HKQcNyJrO0pDD196Bk3a-41">
+          <mxGeometry x="0.0718" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKQcNyJrO0pDD196Bk3a-38" value="OPC Router/KEPServerEX&amp;nbsp;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_transcoder;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="544" y="314.5" width="40" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="HKQcNyJrO0pDD196Bk3a-39" value="OPC DA Server" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_transcoder;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="694" y="315" width="40" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
